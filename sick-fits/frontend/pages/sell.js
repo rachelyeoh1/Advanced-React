@@ -1,10 +1,9 @@
 import React from 'react'
-import Page from '../components/Page'
 
-const sell = () => {
+const SellPage = () => {
   return (
-    <Page><p>Hello I am the sell page!</p></Page>
+    <p>Hello I am the sell page!</p>
   )
 }
 
-export default sell
+export default SellPage

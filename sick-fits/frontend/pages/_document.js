@@ -10,14 +10,13 @@ export default class MyDocument extends Document {
     );
 
     const styleTags = sheet.getStyleElement();
-    console.log(styleTags);
 
     return { ...page, styleTags };
   }
 
   render() {
     return (
-      <Html lang="en-CA">
+      <Html lang="en-AU">
         <Head />
         <body>
           <Main />

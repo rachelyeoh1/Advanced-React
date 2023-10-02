@@ -4,9 +4,9 @@
   "description": "Sick Fits! An example React, GraphQL, Next and Apollo",
   "main": "index.js",
   "scripts": {
-    "dev": "next -p 7777",
-    "build": "next build",
-    "start": "next start -p 7777",
+    "dev": "export SET NODE_OPTIONS=--openssl-legacy-provider && next -p 7777",
+    "build": "export SET NODE_OPTIONS=--openssl-legacy-provider && next build",
+    "start": "export SET NODE_OPTIONS=--openssl-legacy-provider && next start -p 7777",
     "test": "NODE_ENV=test jest --watch"
   },
   "author": "",
